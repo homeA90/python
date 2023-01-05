@@ -1,0 +1,2627 @@
+03-01-2023 06:42:55.458 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+03-01-2023 06:42:55.458 [Gauge] [DEBUG] Plugin python is already installed.
+03-01-2023 06:42:55.459 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2023 06:42:55.459 [Gauge] [DEBUG] Parsing started.
+03-01-2023 06:42:55.459 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2023 06:42:55.459 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2023 06:42:55.459 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2023 06:42:55.459 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2023 06:42:55.459 [Gauge] [DEBUG] Parsing completed.
+03-01-2023 06:42:55.482 [python] [ERROR] Traceback (most recent call last):
+03-01-2023 06:42:55.482 [python] [ERROR] File "check_and_install_getgauge.py", line 5, in <module>
+03-01-2023 06:42:55.482 [python] [ERROR] import pkg_resources
+03-01-2023 06:42:55.482 [python] [ERROR] ImportError: No module named pkg_resources
+03-01-2023 06:42:55.484 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2023 06:42:55.484 [Gauge] [CRITICAL] Failed to start gauge API: Error occurred while waiting for runner process to finish.
+Error : exit status 1
+03-01-2023 06:43:07.587 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+03-01-2023 06:43:07.588 [Gauge] [DEBUG] Plugin python is already installed.
+03-01-2023 06:43:07.588 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-01-2023 06:43:07.588 [Gauge] [DEBUG] Parsing started.
+03-01-2023 06:43:07.588 [Gauge] [DEBUG] Started concepts parsing.
+03-01-2023 06:43:07.589 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-01-2023 06:43:07.589 [Gauge] [DEBUG] Started specifications parsing.
+03-01-2023 06:43:07.590 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-01-2023 06:43:07.590 [Gauge] [DEBUG] Parsing completed.
+03-01-2023 06:43:07.734 [Gauge] [DEBUG] Checking updates...
+03-01-2023 06:43:07.735 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+03-01-2023 06:43:08.007 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+03-01-2023 06:43:08.080 [python] [INFO] Python: 3.5.2
+03-01-2023 06:43:08.080 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+03-01-2023 06:43:08.093 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+03-01-2023 06:43:08.115 [python] [DEBUG] Starting grpc server..
+03-01-2023 06:43:08.122 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33786
+03-01-2023 06:43:08.122 [Gauge] [DEBUG] Successfully made the connection with runner with port: 33786
+03-01-2023 06:43:08.122 [Gauge] [DEBUG] Validation started.
+03-01-2023 06:43:08.155 [Gauge] [DEBUG] Validation completed.
+03-01-2023 06:43:08.155 [Gauge] [DEBUG] Run started
+03-01-2023 06:43:08.156 [Gauge] [DEBUG] Starting Html Report plugin
+03-01-2023 06:43:08.164 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34815
+03-01-2023 06:43:08.165 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34815
+03-01-2023 06:43:08.165 [Gauge] [DEBUG] Initialising suite data store.
+03-01-2023 06:43:08.171 [Gauge] [INFO] # Specification Heading
+03-01-2023 06:43:08.176 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+03-01-2023 06:43:08.176 [Gauge] [INFO] ## Vowel counts in single word
+03-01-2023 06:43:08.180 [Gauge] [DEBUG] * Vowels in English language are "aeiou".
+
+03-01-2023 06:43:08.183 [Gauge] [DEBUG] * The word "gauge" has "3" vowels.
+
+03-01-2023 06:43:08.188 [Gauge] [INFO] ## Vowel counts in multiple word
+03-01-2023 06:43:08.190 [Gauge] [DEBUG] * Vowels in English language are "aeiou".
+
+03-01-2023 06:43:08.193 [Gauge] [DEBUG] * Almost all words have vowels 
+
+   |Word  |Vowel Count|
+   |------|-----------|
+   |Gauge |3          |
+   |Mingle|2          |
+   |Snap  |1          |
+   |GoCD  |1          |
+   |Rhythm|0          |
+03-01-2023 06:43:08.201 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-01-2023 06:43:08.224 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+03-01-2023 06:43:08.224 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+03-01-2023 06:43:08.224 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-01-2023 06:43:08.226 [python] [DEBUG] KillProcessrequest received
+03-01-2023 06:43:08.828 [Gauge] [DEBUG] Runner with PID:30846 has exited
+03-01-2023 06:43:08.829 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-01-2023 06:43:08.829 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+03-01-2023 06:43:08.829 [Gauge] [INFO] 
+Total time taken: 44ms
+03-01-2023 06:43:08.829 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 06:45:11.053 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:45:11.053 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:45:11.053 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:45:11.053 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:45:11.053 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:45:11.053 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:45:11.054 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:45:11.054 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:45:11.054 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:45:11.518 [python] [INFO] Python: 3.5.2
+04-01-2023 06:45:11.518 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:45:11.552 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:45:11.559 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45712
+04-01-2023 06:45:11.560 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45712
+04-01-2023 06:45:11.560 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:45:11.595 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:45:11.595 [Gauge] [DEBUG] Run started
+04-01-2023 06:45:11.596 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:45:11.603 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36765
+04-01-2023 06:45:11.604 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 36765
+04-01-2023 06:45:11.604 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:45:11.607 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:45:11.607 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:45:11.610 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <a>")
+NameError: name 'step' is not defined
+04-01-2023 06:45:11.614 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:45:11.615 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:45:11.615 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:45:11.615 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:45:11.615 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:45:11.615 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:45:11.623 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:45:11.623 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:45:11.624 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:45:11.624 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:45712: connect: connection refused"
+04-01-2023 06:45:11.624 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:45:11.624 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:45:11.624 [Gauge] [INFO] 
+Total time taken: 19ms
+04-01-2023 06:45:18.322 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:45:18.323 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:45:18.323 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:45:18.323 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:45:18.323 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:45:18.324 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:45:18.324 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:45:18.324 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:45:18.324 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:45:18.465 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:45:18.465 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:45:18.756 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:45:18.823 [python] [INFO] Python: 3.5.2
+04-01-2023 06:45:18.823 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:45:18.838 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:45:18.861 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:45:18.868 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42915
+04-01-2023 06:45:18.869 [Gauge] [DEBUG] Successfully made the connection with runner with port: 42915
+04-01-2023 06:45:18.869 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:45:18.900 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:45:18.900 [Gauge] [DEBUG] Run started
+04-01-2023 06:45:18.900 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:45:18.909 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35094
+04-01-2023 06:45:18.909 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35094
+04-01-2023 06:45:18.909 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:45:18.915 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <a>")
+NameError: name 'step' is not defined
+04-01-2023 06:45:18.919 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:45:18.920 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:45:18.921 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:45:18.921 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:45:18.921 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:45:18.921 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:45:18.922 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:45:18.930 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:45:18.930 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:45:18.930 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:45:18.931 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:42915: connect: connection refused"
+04-01-2023 06:45:18.931 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:45:18.931 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:45:18.931 [Gauge] [INFO] 
+Total time taken: 20ms
+04-01-2023 06:46:19.966 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:46:19.967 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:46:19.967 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:46:19.967 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:46:19.967 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:46:19.967 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:46:19.967 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:46:19.968 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:46:19.968 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:46:20.455 [python] [INFO] Python: 3.5.2
+04-01-2023 06:46:20.456 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:46:20.493 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:46:20.501 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33570
+04-01-2023 06:46:20.501 [Gauge] [DEBUG] Successfully made the connection with runner with port: 33570
+04-01-2023 06:46:20.502 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:46:20.534 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:46:20.534 [Gauge] [DEBUG] Run started
+04-01-2023 06:46:20.535 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:46:20.542 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34519
+04-01-2023 06:46:20.542 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34519
+04-01-2023 06:46:20.542 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:46:20.547 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <a>")
+NameError: name 'step' is not defined
+04-01-2023 06:46:20.551 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:46:20.552 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:46:20.552 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:46:20.553 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:46:20.553 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:46:20.553 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:46:20.562 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:46:20.562 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:46:20.562 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:46:20.564 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:33570: connect: connection refused"
+04-01-2023 06:46:20.564 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:46:20.564 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:46:20.564 [Gauge] [INFO] 
+Total time taken: 18ms
+04-01-2023 06:48:45.724 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:48:45.724 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:48:45.725 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:48:45.725 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:48:45.725 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:48:45.725 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:48:45.725 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:48:45.725 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:48:45.725 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:48:46.213 [python] [INFO] Python: 3.5.2
+04-01-2023 06:48:46.213 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:48:46.249 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:48:46.256 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40631
+04-01-2023 06:48:46.257 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40631
+04-01-2023 06:48:46.257 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:48:46.288 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:48:46.288 [Gauge] [DEBUG] Run started
+04-01-2023 06:48:46.288 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:48:46.296 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43949
+04-01-2023 06:48:46.298 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 43949
+04-01-2023 06:48:46.298 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:48:46.305 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <just_argu>")
+NameError: name 'step' is not defined
+04-01-2023 06:48:46.309 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:48:46.312 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:48:46.312 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:48:46.312 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:48:46.312 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:48:46.312 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:48:46.320 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:48:46.320 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:48:46.320 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:48:46.321 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:40631: connect: connection refused"
+04-01-2023 06:48:46.321 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:48:46.321 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:48:46.321 [Gauge] [INFO] 
+Total time taken: 23ms
+04-01-2023 06:49:07.679 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:49:07.679 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:49:07.679 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:49:07.680 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:49:07.680 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:49:07.680 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:49:07.680 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:49:07.681 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:49:07.681 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:49:08.163 [python] [INFO] Python: 3.5.2
+04-01-2023 06:49:08.163 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:49:08.199 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:49:08.206 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 41533
+04-01-2023 06:49:08.207 [Gauge] [DEBUG] Successfully made the connection with runner with port: 41533
+04-01-2023 06:49:08.207 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:49:08.231 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:49:08.232 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:49:08.236 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:49:08.237 [Gauge] [DEBUG] Run started
+04-01-2023 06:49:08.237 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:49:08.245 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42758
+04-01-2023 06:49:08.246 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 42758
+04-01-2023 06:49:08.246 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:49:08.253 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <just_argu>")
+NameError: name 'step' is not defined
+04-01-2023 06:49:08.257 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:49:08.259 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:49:08.260 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:49:08.260 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:49:08.260 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:49:08.260 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:49:08.268 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:49:08.268 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:49:08.268 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:49:08.269 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:41533: connect: connection refused"
+04-01-2023 06:49:08.269 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:49:08.269 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:49:08.269 [Gauge] [INFO] 
+Total time taken: 22ms
+04-01-2023 06:50:29.621 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:50:29.621 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:50:29.621 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:50:29.622 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:50:29.622 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:50:29.622 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:50:29.622 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:50:29.622 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:50:29.623 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:50:30.100 [python] [INFO] Python: 3.5.2
+04-01-2023 06:50:30.100 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:50:30.134 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:50:30.140 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36087
+04-01-2023 06:50:30.141 [Gauge] [DEBUG] Successfully made the connection with runner with port: 36087
+04-01-2023 06:50:30.141 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:50:30.156 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:50:30.157 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:50:30.171 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:50:30.171 [Gauge] [DEBUG] Run started
+04-01-2023 06:50:30.171 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:50:30.180 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 32996
+04-01-2023 06:50:30.180 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 32996
+04-01-2023 06:50:30.180 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:50:30.188 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <just_argu>")
+NameError: name 'step' is not defined
+04-01-2023 06:50:30.192 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:50:30.193 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:50:30.193 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:50:30.193 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:50:30.193 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:50:30.194 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:50:30.202 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:50:30.202 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:50:30.202 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:50:30.203 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:36087: connect: connection refused"
+04-01-2023 06:50:30.203 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:50:30.203 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:50:30.203 [Gauge] [INFO] 
+Total time taken: 22ms
+04-01-2023 06:51:18.543 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:51:18.543 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:51:18.543 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:51:18.544 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:51:18.544 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:51:18.544 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:51:18.544 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:51:18.545 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:51:18.545 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:51:19.039 [python] [INFO] Python: 3.5.2
+04-01-2023 06:51:19.040 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:51:19.080 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:51:19.086 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40895
+04-01-2023 06:51:19.087 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40895
+04-01-2023 06:51:19.087 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:51:19.108 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:51:19.109 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:19.118 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:51:19.118 [Gauge] [DEBUG] Run started
+04-01-2023 06:51:19.119 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:51:19.126 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45224
+04-01-2023 06:51:19.127 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 45224
+04-01-2023 06:51:19.127 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:51:19.132 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <just_argu>")
+NameError: name 'step' is not defined
+04-01-2023 06:51:19.136 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:51:19.137 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:51:19.137 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:19.137 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:51:19.137 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:19.137 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:51:19.145 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:51:19.145 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:51:19.145 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:51:19.146 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:40895: connect: connection refused"
+04-01-2023 06:51:19.146 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:19.146 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:19.146 [Gauge] [INFO] 
+Total time taken: 18ms
+04-01-2023 06:51:46.660 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:51:46.661 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:51:46.661 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:51:46.661 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:51:46.661 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:51:46.662 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:51:46.662 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:51:46.663 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:51:46.663 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:51:47.151 [python] [INFO] Python: 3.5.2
+04-01-2023 06:51:47.151 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:51:47.188 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:51:47.195 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45218
+04-01-2023 06:51:47.195 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45218
+04-01-2023 06:51:47.196 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:51:47.213 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:51:47.213 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:47.226 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:51:47.227 [Gauge] [DEBUG] Run started
+04-01-2023 06:51:47.227 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:51:47.233 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36491
+04-01-2023 06:51:47.234 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 36491
+04-01-2023 06:51:47.234 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:51:47.239 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <just_argu>")
+NameError: name 'step' is not defined
+04-01-2023 06:51:47.243 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:51:47.244 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:51:47.244 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:47.245 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:51:47.245 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:47.245 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:51:47.253 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:51:47.253 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:51:47.253 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:51:47.254 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:45218: connect: connection refused"
+04-01-2023 06:51:47.254 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:47.254 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:47.254 [Gauge] [INFO] 
+Total time taken: 17ms
+04-01-2023 06:51:51.593 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:51:51.594 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:51:51.594 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:51:51.594 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:51:51.594 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:51:51.595 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:51:51.595 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:51:51.596 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:51:51.596 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:51:51.728 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:51:51.728 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:52.037 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:52.057 [python] [INFO] Python: 3.5.2
+04-01-2023 06:51:52.057 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:51:52.091 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:51:52.097 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 39589
+04-01-2023 06:51:52.098 [Gauge] [DEBUG] Successfully made the connection with runner with port: 39589
+04-01-2023 06:51:52.098 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:51:52.119 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:52.133 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:51:52.133 [Gauge] [DEBUG] Run started
+04-01-2023 06:51:52.133 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:51:52.141 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45796
+04-01-2023 06:51:52.142 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 45796
+04-01-2023 06:51:52.142 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:51:52.147 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <just_argu>")
+NameError: name 'step' is not defined
+04-01-2023 06:51:52.151 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:51:52.153 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:51:52.153 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:52.153 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:51:52.153 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:52.153 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:51:52.161 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:51:52.161 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:51:52.161 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:51:52.162 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:39589: connect: connection refused"
+04-01-2023 06:51:52.162 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:52.162 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:52.162 [Gauge] [INFO] 
+Total time taken: 19ms
+04-01-2023 06:51:55.652 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:51:55.653 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:51:55.653 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:51:55.653 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:51:55.653 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:51:55.654 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:51:55.654 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:51:55.655 [Gauge] [DEBUG] 2 specifications parsing completed.
+04-01-2023 06:51:55.655 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:51:55.798 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:51:55.799 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:56.091 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:56.157 [python] [INFO] Python: 3.5.2
+04-01-2023 06:51:56.157 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:51:56.184 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:51:56.194 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:51:56.200 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45777
+04-01-2023 06:51:56.201 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45777
+04-01-2023 06:51:56.201 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:51:56.238 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:51:56.239 [Gauge] [DEBUG] Run started
+04-01-2023 06:51:56.239 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:51:56.248 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 44334
+04-01-2023 06:51:56.248 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 44334
+04-01-2023 06:51:56.248 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:51:56.254 [python] [CRITICAL] Exception occurred while loading step implementations from file: step_impl/test.py.
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/impl_loader.py", line 65, in _import_file
+    m = importlib.import_module(module_name)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/root/test_lab/step_impl/test.py", line 1, in <module>
+    @step("안녕하세요. <just_argu>")
+NameError: name 'step' is not defined
+04-01-2023 06:51:56.259 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+04-01-2023 06:51:56.261 [Gauge] [ERROR] Error Message: error reading from server: EOF
+04-01-2023 06:51:56.261 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:56.261 [Gauge] [ERROR] Error Message: Runner is not Alive
+04-01-2023 06:51:56.261 [Gauge] [ERROR] Stacktrace: 
+04-01-2023 06:51:56.261 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:51:56.270 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:51:56.270 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:51:56.270 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:51:56.270 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:45777: connect: connection refused"
+04-01-2023 06:51:56.271 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:56.271 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 06:51:56.271 [Gauge] [INFO] 
+Total time taken: 22ms
+04-01-2023 06:58:26.444 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:58:26.444 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:58:26.444 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:58:26.445 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:58:26.445 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:58:26.445 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:58:26.445 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:58:26.445 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:58:26.445 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:58:26.933 [python] [INFO] Python: 3.5.2
+04-01-2023 06:58:26.933 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:58:26.974 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:58:26.981 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36141
+04-01-2023 06:58:26.982 [Gauge] [DEBUG] Successfully made the connection with runner with port: 36141
+04-01-2023 06:58:26.982 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:58:27.016 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:58:27.016 [Gauge] [DEBUG] Run started
+04-01-2023 06:58:27.017 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:58:27.024 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 32926
+04-01-2023 06:58:27.025 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 32926
+04-01-2023 06:58:27.025 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:58:27.032 [Gauge] [INFO] # Guage 개인 테스트용
+04-01-2023 06:58:27.035 [Gauge] [INFO] ## 테스트 진행
+04-01-2023 06:58:27.040 [Gauge] [DEBUG] * 안녕하세요. "하이"
+04-01-2023 06:58:27.043 [python] [INFO] 하이
+04-01-2023 06:58:27.050 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:58:27.058 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:58:27.058 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:58:27.059 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:58:27.060 [python] [DEBUG] KillProcessrequest received
+04-01-2023 06:58:27.281 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:58:27.281 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:58:27.559 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:58:27.649 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:58:27.662 [Gauge] [DEBUG] Runner with PID:25479 has exited
+04-01-2023 06:58:27.662 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 06:58:27.662 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 06:58:27.662 [Gauge] [INFO] 
+Total time taken: 33ms
+04-01-2023 06:59:28.747 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 06:59:28.747 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 06:59:28.748 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 06:59:28.748 [Gauge] [DEBUG] Parsing started.
+04-01-2023 06:59:28.748 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 06:59:28.748 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 06:59:28.748 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 06:59:28.749 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 06:59:28.749 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 06:59:29.218 [python] [INFO] Python: 3.5.2
+04-01-2023 06:59:29.219 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 06:59:29.255 [python] [DEBUG] Starting grpc server..
+04-01-2023 06:59:29.260 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40624
+04-01-2023 06:59:29.260 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40624
+04-01-2023 06:59:29.260 [Gauge] [DEBUG] Validation started.
+04-01-2023 06:59:29.292 [Gauge] [DEBUG] Validation completed.
+04-01-2023 06:59:29.293 [Gauge] [DEBUG] Run started
+04-01-2023 06:59:29.293 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 06:59:29.302 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 32804
+04-01-2023 06:59:29.303 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 32804
+04-01-2023 06:59:29.303 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 06:59:29.312 [Gauge] [INFO] # Guage 개인 테스트용
+04-01-2023 06:59:29.316 [Gauge] [INFO] ## 테스트 진행
+04-01-2023 06:59:29.321 [Gauge] [DEBUG] * 안녕하세요. "하이"
+04-01-2023 06:59:29.325 [python] [INFO] 하이
+04-01-2023 06:59:29.332 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 06:59:29.343 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 06:59:29.343 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 06:59:29.344 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 06:59:29.346 [python] [DEBUG] KillProcessrequest received
+04-01-2023 06:59:29.406 [Gauge] [DEBUG] Checking updates...
+04-01-2023 06:59:29.406 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:59:29.689 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:59:29.776 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:59:29.863 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 06:59:29.949 [Gauge] [DEBUG] Runner with PID:26203 has exited
+04-01-2023 06:59:29.949 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 06:59:29.949 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 06:59:29.949 [Gauge] [INFO] 
+Total time taken: 38ms
+04-01-2023 06:59:29.950 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:00:18.970 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:00:18.971 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:00:18.971 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:00:18.971 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:00:18.971 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:00:18.972 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 07:00:18.972 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:00:18.972 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:00:18.972 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:00:19.461 [python] [INFO] Python: 3.5.2
+04-01-2023 07:00:19.461 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:00:19.500 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:00:19.506 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33623
+04-01-2023 07:00:19.507 [Gauge] [DEBUG] Successfully made the connection with runner with port: 33623
+04-01-2023 07:00:19.507 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:00:19.529 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:00:19.529 [Gauge] [DEBUG] Run started
+04-01-2023 07:00:19.529 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:00:19.537 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 39691
+04-01-2023 07:00:19.537 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 39691
+04-01-2023 07:00:19.537 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:00:19.545 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:00:19.545 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:00:19.546 [Gauge] [INFO] # Guage 개인 테스트용
+04-01-2023 07:00:19.551 [Gauge] [INFO] ## 개인 테스트
+04-01-2023 07:00:19.554 [Gauge] [DEBUG] * 테스트 진행 "하이"
+04-01-2023 07:00:19.557 [python] [INFO] 하이
+04-01-2023 07:00:19.564 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:00:19.574 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:00:19.574 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:00:19.574 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:00:19.575 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:00:19.825 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:00:19.906 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:00:19.995 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:00:20.180 [Gauge] [DEBUG] Runner with PID:26793 has exited
+04-01-2023 07:00:20.181 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:00:20.181 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:00:20.181 [Gauge] [INFO] 
+Total time taken: 34ms
+04-01-2023 07:00:20.181 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:00:41.779 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:00:41.779 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:00:41.780 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:00:41.780 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:00:41.780 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:00:41.780 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 07:00:41.780 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:00:41.780 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:00:41.780 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:00:42.242 [python] [INFO] Python: 3.5.2
+04-01-2023 07:00:42.242 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:00:42.277 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:00:42.284 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34833
+04-01-2023 07:00:42.286 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34833
+04-01-2023 07:00:42.286 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:00:42.320 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:00:42.320 [Gauge] [DEBUG] Run started
+04-01-2023 07:00:42.320 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:00:42.328 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35478
+04-01-2023 07:00:42.329 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35478
+04-01-2023 07:00:42.329 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:00:42.336 [Gauge] [INFO] # Guage 개인 테스트용
+04-01-2023 07:00:42.338 [Gauge] [INFO] ## 개인 테스트
+04-01-2023 07:00:42.342 [Gauge] [DEBUG] * 테스트 진행 "성공"
+04-01-2023 07:00:42.346 [python] [INFO] 성공
+04-01-2023 07:00:42.352 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:00:42.360 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:00:42.360 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:00:42.360 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:00:42.361 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:00:42.651 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:00:42.651 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:00:42.924 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:00:42.965 [Gauge] [DEBUG] Runner with PID:27104 has exited
+04-01-2023 07:00:42.966 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:00:42.966 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:00:42.966 [Gauge] [INFO] 
+Total time taken: 31ms
+04-01-2023 07:04:13.298 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:04:13.298 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:04:13.298 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:04:13.299 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:04:13.299 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:04:13.299 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 07:04:13.299 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:04:13.299 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:04:13.300 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:04:13.774 [python] [INFO] Python: 3.5.2
+04-01-2023 07:04:13.774 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:04:13.811 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:04:13.819 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34060
+04-01-2023 07:04:13.820 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34060
+04-01-2023 07:04:13.820 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:04:13.853 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:04:13.853 [Gauge] [DEBUG] Run started
+04-01-2023 07:04:13.854 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:04:13.862 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40861
+04-01-2023 07:04:13.863 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 40861
+04-01-2023 07:04:13.863 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:04:13.873 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:04:13.876 [Gauge] [INFO] ## 개인 테스트
+04-01-2023 07:04:13.881 [Gauge] [DEBUG] * simple parameter 테스트 진행 "성공"
+04-01-2023 07:04:13.884 [python] [INFO] 성공
+04-01-2023 07:04:13.890 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:04:13.900 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:04:13.900 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:04:13.900 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:04:13.901 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:04:14.504 [Gauge] [DEBUG] Runner with PID:29355 has exited
+04-01-2023 07:04:14.505 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:04:14.505 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:04:14.505 [Gauge] [INFO] 
+Total time taken: 36ms
+04-01-2023 07:16:30.137 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:16:30.138 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:16:30.138 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:16:30.138 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:16:30.138 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:16:30.138 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 07:16:30.138 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:16:30.139 [Gauge] [ERROR] [ParseError] /root/test_lab/specs/test.spec:10 Dynamic parameter <number> could not be resolved => 'dynamic parameter 테스트 <name>과 <number>'
+04-01-2023 07:16:30.139 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:16:30.139 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:16:30.618 [python] [INFO] Python: 3.5.2
+04-01-2023 07:16:30.618 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:16:30.664 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:16:30.669 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37117
+04-01-2023 07:16:30.670 [Gauge] [DEBUG] Successfully made the connection with runner with port: 37117
+04-01-2023 07:16:30.670 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:16:30.700 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:16:30.700 [Gauge] [DEBUG] Run started
+04-01-2023 07:16:30.700 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:16:30.709 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40881
+04-01-2023 07:16:30.709 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 40881
+04-01-2023 07:16:30.709 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:16:30.722 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:16:30.730 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:16:30.730 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:16:30.730 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:16:30.732 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:16:31.155 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:16:31.156 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:16:31.336 [Gauge] [DEBUG] Runner with PID:4720 has exited
+04-01-2023 07:16:31.336 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 07:16:31.336 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+04-01-2023 07:16:31.336 [Gauge] [INFO] 
+Total time taken: 20ms
+04-01-2023 07:18:31.106 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:18:31.106 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:18:31.106 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:18:31.106 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:18:31.106 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:18:31.107 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 07:18:31.107 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:18:31.107 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:18:31.107 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:18:31.579 [python] [INFO] Python: 3.5.2
+04-01-2023 07:18:31.579 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:18:31.619 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:18:31.625 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35525
+04-01-2023 07:18:31.626 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35525
+04-01-2023 07:18:31.626 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:18:31.654 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:18:31.655 [Gauge] [DEBUG] Run started
+04-01-2023 07:18:31.655 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:18:31.663 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43672
+04-01-2023 07:18:31.664 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 43672
+04-01-2023 07:18:31.664 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:18:31.673 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:18:31.677 [Gauge] [INFO] ## simple parameter 테스트
+04-01-2023 07:18:31.682 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:18:31.685 [python] [INFO] 성공
+04-01-2023 07:18:31.685 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:18:31.686 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:18:31.688 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:18:31.688 [Gauge] [INFO] ## dynamic parameter 테스트
+04-01-2023 07:18:31.691 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+04-01-2023 07:18:31.694 [python] [INFO] A, 100
+04-01-2023 07:18:31.700 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:18:31.711 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:18:31.711 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:18:31.711 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:18:31.712 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:18:31.956 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:18:32.036 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:18:32.116 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:18:32.316 [Gauge] [DEBUG] Runner with PID:6030 has exited
+04-01-2023 07:18:32.316 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:18:32.316 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+04-01-2023 07:18:32.316 [Gauge] [INFO] 
+Total time taken: 45ms
+04-01-2023 07:18:32.317 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:21:36.575 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:21:36.576 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:21:36.576 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:21:36.576 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:21:36.576 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:21:36.577 [Gauge] [DEBUG] 0 concepts parsing completed.
+04-01-2023 07:21:36.577 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:21:36.577 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:21:36.577 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:21:37.047 [python] [INFO] Python: 3.5.2
+04-01-2023 07:21:37.047 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:21:37.089 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:21:37.096 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35296
+04-01-2023 07:21:37.097 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35296
+04-01-2023 07:21:37.097 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:21:37.130 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:21:37.130 [Gauge] [DEBUG] Run started
+04-01-2023 07:21:37.131 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:21:37.138 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36257
+04-01-2023 07:21:37.139 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 36257
+04-01-2023 07:21:37.139 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:21:37.147 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:21:37.150 [Gauge] [INFO] ## simple parameter 테스트
+04-01-2023 07:21:37.155 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:21:37.157 [python] [INFO] 성공
+04-01-2023 07:21:37.160 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:21:37.160 [Gauge] [INFO] ## dynamic parameter 테스트
+04-01-2023 07:21:37.162 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:21:37.165 [python] [INFO] A, 100
+04-01-2023 07:21:37.168 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:21:37.168 [Gauge] [INFO] ## dynamic parameter 테스트
+04-01-2023 07:21:37.170 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:21:37.172 [python] [INFO] B, 200
+04-01-2023 07:21:37.178 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:21:37.189 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:21:37.189 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:21:37.189 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:21:37.190 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:21:37.449 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:21:37.449 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:21:37.733 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:21:37.794 [Gauge] [DEBUG] Runner with PID:7981 has exited
+04-01-2023 07:21:37.795 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:21:37.795 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
+04-01-2023 07:21:37.795 [Gauge] [INFO] 
+Total time taken: 47ms
+04-01-2023 07:28:58.432 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:28:58.433 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:28:58.433 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:28:58.433 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:28:58.433 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:28:58.434 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:28:58.434 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:28:58.435 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:28:58.435 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:28:58.895 [python] [INFO] Python: 3.5.2
+04-01-2023 07:28:58.895 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:28:58.938 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:28:58.944 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42846
+04-01-2023 07:28:58.944 [Gauge] [DEBUG] Successfully made the connection with runner with port: 42846
+04-01-2023 07:28:58.944 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:28:58.973 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:28:58.973 [Gauge] [DEBUG] Run started
+04-01-2023 07:28:58.973 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:28:58.982 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33388
+04-01-2023 07:28:58.983 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33388
+04-01-2023 07:28:58.983 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:28:58.992 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:28:58.995 [Gauge] [INFO] ## simple parameter 테스트
+04-01-2023 07:28:58.999 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:28:59.001 [python] [INFO] 성공
+04-01-2023 07:28:59.004 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:28:59.004 [Gauge] [INFO] ## dynamic parameter 테스트
+04-01-2023 07:28:59.007 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:28:59.009 [python] [INFO] A, 100
+04-01-2023 07:28:59.012 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:28:59.012 [Gauge] [INFO] ## dynamic parameter 테스트 - concept 활용
+04-01-2023 07:28:59.014 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+04-01-2023 07:28:59.014 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:28:59.016 [python] [INFO] A
+04-01-2023 07:28:59.016 [python] [INFO] 성공
+04-01-2023 07:28:59.019 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:28:59.019 [Gauge] [INFO] ## dynamic parameter 테스트
+04-01-2023 07:28:59.021 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:28:59.024 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:28:59.024 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:28:59.026 [python] [INFO] B, 200
+04-01-2023 07:28:59.031 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:28:59.031 [Gauge] [INFO] ## dynamic parameter 테스트 - concept 활용
+04-01-2023 07:28:59.034 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+04-01-2023 07:28:59.034 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:28:59.037 [python] [INFO] B
+04-01-2023 07:28:59.037 [python] [INFO] 성공
+04-01-2023 07:28:59.044 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:28:59.060 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:28:59.060 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:28:59.060 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:28:59.061 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:28:59.294 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:28:59.372 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:28:59.449 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:28:59.667 [Gauge] [DEBUG] Runner with PID:12551 has exited
+04-01-2023 07:28:59.667 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:28:59.667 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+04-01-2023 07:28:59.667 [Gauge] [INFO] 
+Total time taken: 71ms
+04-01-2023 07:28:59.667 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:29:04.949 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:29:04.949 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:29:04.949 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:29:04.950 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:29:04.950 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:29:04.950 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:29:04.950 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:29:04.951 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:29:04.951 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:29:05.092 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:29:05.093 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:05.355 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:05.406 [python] [INFO] Python: 3.5.2
+04-01-2023 07:29:05.406 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:29:05.431 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:05.450 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:29:05.456 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43761
+04-01-2023 07:29:05.457 [Gauge] [DEBUG] Successfully made the connection with runner with port: 43761
+04-01-2023 07:29:05.457 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:29:05.492 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:29:05.492 [Gauge] [DEBUG] Run started
+04-01-2023 07:29:05.492 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:29:05.500 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42087
+04-01-2023 07:29:05.501 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 42087
+04-01-2023 07:29:05.501 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:29:05.510 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:29:05.515 [Gauge] [INFO] ## simple parameter 테스트
+04-01-2023 07:29:05.516 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:05.519 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:29:05.522 [python] [INFO] 성공
+04-01-2023 07:29:05.525 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:29:05.525 [Gauge] [INFO] ## dynamic parameter 테스트
+04-01-2023 07:29:05.528 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:29:05.530 [python] [INFO] A, 100
+04-01-2023 07:29:05.533 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:29:05.533 [Gauge] [INFO] ## dynamic parameter 테스트 - concept 활용
+04-01-2023 07:29:05.535 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+04-01-2023 07:29:05.535 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:29:05.537 [python] [INFO] A
+04-01-2023 07:29:05.537 [python] [INFO] 성공
+04-01-2023 07:29:05.540 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:29:05.540 [Gauge] [INFO] ## dynamic parameter 테스트
+04-01-2023 07:29:05.542 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:29:05.545 [python] [INFO] B, 200
+04-01-2023 07:29:05.547 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:29:05.547 [Gauge] [INFO] ## dynamic parameter 테스트 - concept 활용
+04-01-2023 07:29:05.549 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+04-01-2023 07:29:05.550 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:29:05.552 [python] [INFO] B
+04-01-2023 07:29:05.552 [python] [INFO] 성공
+04-01-2023 07:29:05.558 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:29:05.570 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:29:05.570 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:29:05.570 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:29:05.572 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:29:06.175 [Gauge] [DEBUG] Runner with PID:12808 has exited
+04-01-2023 07:29:06.175 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:29:06.175 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+04-01-2023 07:29:06.175 [Gauge] [INFO] 
+Total time taken: 65ms
+04-01-2023 07:29:06.175 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:29:40.117 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:29:40.117 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:29:40.117 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:29:40.118 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:29:40.118 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:29:40.118 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:29:40.118 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:29:40.118 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:29:40.119 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:29:40.591 [python] [INFO] Python: 3.5.2
+04-01-2023 07:29:40.591 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:29:40.641 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:29:40.647 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40897
+04-01-2023 07:29:40.648 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40897
+04-01-2023 07:29:40.648 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:29:40.681 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:29:40.681 [Gauge] [DEBUG] Run started
+04-01-2023 07:29:40.682 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:29:40.689 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34355
+04-01-2023 07:29:40.690 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34355
+04-01-2023 07:29:40.690 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:29:40.694 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:29:40.694 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:40.698 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:29:40.701 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 07:29:40.704 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:29:40.707 [python] [INFO] 성공
+04-01-2023 07:29:40.709 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:29:40.709 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:29:40.712 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:29:40.714 [python] [INFO] A, 100
+04-01-2023 07:29:40.717 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:29:40.717 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:29:40.719 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+04-01-2023 07:29:40.719 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:29:40.722 [python] [INFO] A
+04-01-2023 07:29:40.722 [python] [INFO] 성공
+04-01-2023 07:29:40.724 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:29:40.725 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:29:40.726 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:29:40.728 [python] [INFO] B, 200
+04-01-2023 07:29:40.731 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:29:40.731 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:29:40.733 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+04-01-2023 07:29:40.733 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:29:40.735 [python] [INFO] B
+04-01-2023 07:29:40.735 [python] [INFO] 성공
+04-01-2023 07:29:40.740 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:29:40.755 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:29:40.755 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:29:40.755 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:29:40.758 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:29:40.995 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:41.075 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:41.157 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:29:41.362 [Gauge] [DEBUG] Runner with PID:13467 has exited
+04-01-2023 07:29:41.362 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:29:41.362 [Gauge] [INFO] Scenarios:	5 executed	5 passed	0 failed	0 skipped
+04-01-2023 07:29:41.362 [Gauge] [INFO] 
+Total time taken: 58ms
+04-01-2023 07:29:41.363 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:48:26.524 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:48:26.524 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:48:26.524 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:48:26.524 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:48:26.524 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:48:26.525 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:48:26.525 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:48:26.525 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:48:26.525 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:48:27.013 [python] [INFO] Python: 3.5.2
+04-01-2023 07:48:27.013 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:48:27.062 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:48:27.086 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 38598
+04-01-2023 07:48:27.086 [Gauge] [DEBUG] Successfully made the connection with runner with port: 38598
+04-01-2023 07:48:27.087 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:48:27.092 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:48:27.093 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:48:27.104 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:48:27.104 [Gauge] [DEBUG] Run started
+04-01-2023 07:48:27.105 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:48:27.113 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33042
+04-01-2023 07:48:27.114 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33042
+04-01-2023 07:48:27.114 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:48:27.133 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:48:27.136 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 07:48:27.138 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:48:27.141 [python] [INFO] 성공
+04-01-2023 07:48:27.144 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 07:48:27.147 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |A    |
+   |number|100  |
+04-01-2023 07:48:27.170 [python] [ERROR] panic: empty display string
+04-01-2023 07:48:27.170 [python] [ERROR] goroutine 1 [running]:
+04-01-2023 07:48:27.170 [python] [ERROR] main.main()
+04-01-2023 07:48:27.170 [python] [ERROR] 	/Users/runner/work/gauge_screenshot/gauge_screenshot/main.go:44 +0x205
+04-01-2023 07:48:27.171 [python] [WARNING] Screenshot file /root/test_lab/.gauge/screenshots/screenshot-59055668402190078228035704307747717157.png does not exists.
+04-01-2023 07:48:27.176 [Gauge] [ERROR] 
+Failed Step: ## 밑에 table 입력하여 테스트
+04-01-2023 07:48:27.176 [Gauge] [ERROR] Error Message: who() missing 2 required positional arguments: 'number' and 'table'
+04-01-2023 07:48:27.176 [Gauge] [ERROR] Specification: specs/test.spec:18
+04-01-2023 07:48:27.176 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/usr/local/lib/python3.5/dist-packages/nqplus/gocdlib/nq_python.py", line 43, in decorated
+    func(*args, **kwargs)
+TypeError: who() missing 2 required positional arguments: 'number' and 'table'
+04-01-2023 07:48:27.178 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:48:27.178 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:48:27.181 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:48:27.183 [python] [INFO] A, 100
+04-01-2023 07:48:27.187 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:48:27.187 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:48:27.189 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:48:27.189 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:48:27.192 [python] [INFO] A
+04-01-2023 07:48:27.192 [python] [INFO] 성공
+04-01-2023 07:48:27.195 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:48:27.195 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:48:27.197 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:48:27.199 [python] [INFO] B, 200
+04-01-2023 07:48:27.203 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:48:27.203 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:48:27.207 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:48:27.207 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:48:27.210 [python] [INFO] B
+04-01-2023 07:48:27.210 [python] [INFO] 성공
+04-01-2023 07:48:27.216 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:48:27.230 [html-report] [WARNING] Failed to read screenshot open /root/test_lab/.gauge/screenshots/screenshot-59055668402190078228035704307747717157.png: no such file or directory
+04-01-2023 07:48:27.230 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:48:27.230 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:48:27.230 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:48:27.231 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:48:27.358 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:48:27.433 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:48:27.510 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:48:27.836 [Gauge] [DEBUG] Runner with PID:25087 has exited
+04-01-2023 07:48:27.836 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 07:48:27.836 [Gauge] [INFO] Scenarios:	6 executed	5 passed	1 failed	0 skipped
+04-01-2023 07:48:27.836 [Gauge] [INFO] 
+Total time taken: 111ms
+04-01-2023 07:48:27.836 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:50:01.515 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:50:01.515 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:50:01.516 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:50:01.516 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:50:01.516 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:50:01.517 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:50:01.517 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:50:01.517 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:50:01.517 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:50:02.004 [python] [INFO] Python: 3.5.2
+04-01-2023 07:50:02.004 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:50:02.058 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:50:02.086 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 39023
+04-01-2023 07:50:02.087 [Gauge] [DEBUG] Successfully made the connection with runner with port: 39023
+04-01-2023 07:50:02.087 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:50:02.106 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:50:02.106 [Gauge] [DEBUG] Run started
+04-01-2023 07:50:02.107 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:50:02.115 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43518
+04-01-2023 07:50:02.116 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 43518
+04-01-2023 07:50:02.116 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:50:02.137 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:50:02.140 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 07:50:02.144 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:50:02.146 [python] [INFO] 성공
+04-01-2023 07:50:02.149 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 07:50:02.151 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 07:50:02.159 [python] [ERROR] panic: empty display string
+04-01-2023 07:50:02.160 [python] [ERROR] goroutine 1 [running]:
+04-01-2023 07:50:02.160 [python] [ERROR] main.main()
+04-01-2023 07:50:02.160 [python] [ERROR] 	/Users/runner/work/gauge_screenshot/gauge_screenshot/main.go:44 +0x205
+04-01-2023 07:50:02.160 [python] [WARNING] Screenshot file /root/test_lab/.gauge/screenshots/screenshot-134325302734448592450073519940950884389.png does not exists.
+04-01-2023 07:50:02.164 [Gauge] [ERROR] 
+Failed Step: ## 밑에 table 입력하여 테스트
+04-01-2023 07:50:02.164 [Gauge] [ERROR] Error Message: how() missing 2 required positional arguments: 'number' and 'table'
+04-01-2023 07:50:02.164 [Gauge] [ERROR] Specification: specs/test.spec:18
+04-01-2023 07:50:02.164 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/usr/local/lib/python3.5/dist-packages/nqplus/gocdlib/nq_python.py", line 43, in decorated
+    func(*args, **kwargs)
+TypeError: how() missing 2 required positional arguments: 'number' and 'table'
+04-01-2023 07:50:02.166 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:50:02.166 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:50:02.168 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:50:02.171 [python] [INFO] A, 100
+04-01-2023 07:50:02.174 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:50:02.174 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:50:02.177 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:50:02.177 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:50:02.180 [python] [INFO] A
+04-01-2023 07:50:02.180 [python] [INFO] 성공
+04-01-2023 07:50:02.184 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:50:02.184 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:50:02.186 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:50:02.188 [python] [INFO] B, 200
+04-01-2023 07:50:02.192 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:50:02.192 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:50:02.194 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:50:02.194 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:50:02.196 [python] [INFO] B
+04-01-2023 07:50:02.196 [python] [INFO] 성공
+04-01-2023 07:50:02.203 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:50:02.216 [html-report] [WARNING] Failed to read screenshot open /root/test_lab/.gauge/screenshots/screenshot-134325302734448592450073519940950884389.png: no such file or directory
+04-01-2023 07:50:02.216 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:50:02.216 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:50:02.216 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:50:02.217 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:50:02.492 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:50:02.493 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:50:02.771 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:50:02.821 [Gauge] [DEBUG] Runner with PID:26148 has exited
+04-01-2023 07:50:02.821 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 07:50:02.821 [Gauge] [INFO] Scenarios:	6 executed	5 passed	1 failed	0 skipped
+04-01-2023 07:50:02.821 [Gauge] [INFO] 
+Total time taken: 95ms
+04-01-2023 07:50:46.500 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:50:46.500 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:50:46.500 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:50:46.501 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:50:46.501 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:50:46.501 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:50:46.501 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:50:46.502 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:50:46.502 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:50:46.636 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:50:46.637 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:50:46.919 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:50:47.001 [python] [INFO] Python: 3.5.2
+04-01-2023 07:50:47.001 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:50:47.007 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:50:47.052 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:50:47.059 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 38199
+04-01-2023 07:50:47.060 [Gauge] [DEBUG] Successfully made the connection with runner with port: 38199
+04-01-2023 07:50:47.060 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:50:47.094 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:50:47.095 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:50:47.095 [Gauge] [DEBUG] Run started
+04-01-2023 07:50:47.096 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:50:47.103 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40241
+04-01-2023 07:50:47.105 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 40241
+04-01-2023 07:50:47.105 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:50:47.125 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:50:47.129 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 07:50:47.133 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:50:47.135 [python] [INFO] 성공
+04-01-2023 07:50:47.138 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 07:50:47.140 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 07:50:47.149 [python] [ERROR] panic: empty display string
+04-01-2023 07:50:47.149 [python] [ERROR] goroutine
+04-01-2023 07:50:47.149 [python] [ERROR] 1 [running]:
+04-01-2023 07:50:47.149 [python] [ERROR] main.main()
+04-01-2023 07:50:47.149 [python] [ERROR] 	/Users/runner/work/gauge_screenshot/gauge_screenshot/main.go:44 +0x205
+04-01-2023 07:50:47.150 [python] [WARNING] Screenshot file /root/test_lab/.gauge/screenshots/screenshot-169969364556883868973207771557303222309.png does not exists.
+04-01-2023 07:50:47.153 [Gauge] [ERROR] 
+Failed Step: ## 밑에 table 입력하여 테스트
+04-01-2023 07:50:47.153 [Gauge] [ERROR] Error Message: how() missing 1 required positional argument: 'number'
+04-01-2023 07:50:47.153 [Gauge] [ERROR] Specification: specs/test.spec:18
+04-01-2023 07:50:47.153 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/usr/local/lib/python3.5/dist-packages/nqplus/gocdlib/nq_python.py", line 43, in decorated
+    func(*args, **kwargs)
+TypeError: how() missing 1 required positional argument: 'number'
+04-01-2023 07:50:47.154 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:50:47.155 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:50:47.157 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:50:47.159 [python] [INFO] A, 100
+04-01-2023 07:50:47.162 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:50:47.162 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:50:47.164 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:50:47.164 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:50:47.166 [python] [INFO] A
+04-01-2023 07:50:47.166 [python] [INFO] 성공
+04-01-2023 07:50:47.169 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:50:47.169 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:50:47.171 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:50:47.173 [python] [INFO] B, 200
+04-01-2023 07:50:47.176 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:50:47.176 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:50:47.178 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:50:47.178 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:50:47.184 [python] [INFO] B
+04-01-2023 07:50:47.184 [python] [INFO] 성공
+04-01-2023 07:50:47.193 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:50:47.211 [html-report] [WARNING] Failed to read screenshot open /root/test_lab/.gauge/screenshots/screenshot-169969364556883868973207771557303222309.png: no such file or directory
+04-01-2023 07:50:47.211 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:50:47.211 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:50:47.211 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:50:47.213 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:50:47.816 [Gauge] [DEBUG] Runner with PID:26688 has exited
+04-01-2023 07:50:47.817 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 07:50:47.817 [Gauge] [INFO] Scenarios:	6 executed	5 passed	1 failed	0 skipped
+04-01-2023 07:50:47.817 [Gauge] [INFO] 
+Total time taken: 97ms
+04-01-2023 07:50:47.817 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 07:54:32.460 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:54:32.461 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:54:32.461 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:54:32.461 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:54:32.461 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:54:32.462 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:54:32.462 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:54:32.463 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:54:32.463 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:54:32.957 [python] [INFO] Python: 3.5.2
+04-01-2023 07:54:32.957 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:54:33.008 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:54:33.016 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46067
+04-01-2023 07:54:33.016 [Gauge] [DEBUG] Successfully made the connection with runner with port: 46067
+04-01-2023 07:54:33.016 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:54:33.044 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:54:33.044 [Gauge] [DEBUG] Run started
+04-01-2023 07:54:33.044 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:54:33.053 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 39149
+04-01-2023 07:54:33.054 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 39149
+04-01-2023 07:54:33.054 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:54:33.071 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:54:33.078 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 07:54:33.082 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:54:33.085 [python] [INFO] 성공
+04-01-2023 07:54:33.089 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 07:54:33.091 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 07:54:33.094 [python] [INFO] |key   |value|
+04-01-2023 07:54:33.094 [python] [INFO] |------|-----|
+04-01-2023 07:54:33.094 [python] [INFO] |name  |F    |
+04-01-2023 07:54:33.094 [python] [INFO] |number|600  |
+04-01-2023 07:54:33.097 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:54:33.097 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:54:33.099 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:54:33.102 [python] [INFO] A, 100
+04-01-2023 07:54:33.105 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:54:33.105 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:54:33.108 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:54:33.108 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:54:33.110 [python] [INFO] A
+04-01-2023 07:54:33.110 [python] [INFO] 성공
+04-01-2023 07:54:33.113 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:54:33.113 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:54:33.114 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:54:33.116 [python] [INFO] B, 200
+04-01-2023 07:54:33.119 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:54:33.119 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:54:33.121 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:54:33.121 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:54:33.123 [python] [INFO] B
+04-01-2023 07:54:33.123 [python] [INFO] 성공
+04-01-2023 07:54:33.129 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:54:33.143 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:54:33.143 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:54:33.143 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:54:33.146 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:54:33.354 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:54:33.354 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:54:33.634 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:54:33.715 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:54:33.750 [Gauge] [DEBUG] Runner with PID:29094 has exited
+04-01-2023 07:54:33.750 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:54:33.750 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+04-01-2023 07:54:33.750 [Gauge] [INFO] 
+Total time taken: 84ms
+04-01-2023 07:57:47.762 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 07:57:47.762 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 07:57:47.762 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 07:57:47.762 [Gauge] [DEBUG] Parsing started.
+04-01-2023 07:57:47.762 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 07:57:47.763 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 07:57:47.763 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 07:57:47.763 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 07:57:47.763 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 07:57:48.234 [python] [INFO] Python: 3.5.2
+04-01-2023 07:57:48.234 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 07:57:48.284 [python] [DEBUG] Starting grpc server..
+04-01-2023 07:57:48.291 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33017
+04-01-2023 07:57:48.292 [Gauge] [DEBUG] Successfully made the connection with runner with port: 33017
+04-01-2023 07:57:48.293 [Gauge] [DEBUG] Validation started.
+04-01-2023 07:57:48.329 [Gauge] [DEBUG] Validation completed.
+04-01-2023 07:57:48.329 [Gauge] [DEBUG] Run started
+04-01-2023 07:57:48.330 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 07:57:48.338 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 38477
+04-01-2023 07:57:48.339 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 38477
+04-01-2023 07:57:48.339 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 07:57:48.357 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 07:57:48.361 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 07:57:48.364 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 07:57:48.367 [python] [INFO] 성공
+04-01-2023 07:57:48.369 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 07:57:48.371 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 07:57:48.375 [python] [INFO] {'name': 'F', 'number': '600'}
+04-01-2023 07:57:48.378 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:57:48.378 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:57:48.380 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 07:57:48.382 [python] [INFO] A, 100
+04-01-2023 07:57:48.385 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 07:57:48.385 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:57:48.387 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:57:48.387 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 07:57:48.388 [python] [INFO] A
+04-01-2023 07:57:48.388 [python] [INFO] 성공
+04-01-2023 07:57:48.391 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:57:48.391 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 07:57:48.393 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 07:57:48.394 [python] [INFO] B, 200
+04-01-2023 07:57:48.396 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 07:57:48.397 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 07:57:48.398 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 07:57:48.398 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 07:57:48.400 [python] [INFO] B
+04-01-2023 07:57:48.400 [python] [INFO] 성공
+04-01-2023 07:57:48.405 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 07:57:48.416 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 07:57:48.416 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 07:57:48.416 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 07:57:48.418 [python] [DEBUG] KillProcessrequest received
+04-01-2023 07:57:48.576 [Gauge] [DEBUG] Checking updates...
+04-01-2023 07:57:48.576 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:57:48.856 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:57:48.944 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 07:57:49.021 [Gauge] [DEBUG] Runner with PID:31191 has exited
+04-01-2023 07:57:49.021 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 07:57:49.021 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+04-01-2023 07:57:49.021 [Gauge] [INFO] 
+Total time taken: 75ms
+04-01-2023 08:02:10.120 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:02:10.120 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:02:10.121 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:02:10.121 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:02:10.121 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:02:10.122 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:02:10.122 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:02:10.122 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:02:10.122 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:02:10.594 [python] [INFO] Python: 3.5.2
+04-01-2023 08:02:10.594 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:02:10.644 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:02:10.650 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37584
+04-01-2023 08:02:10.651 [Gauge] [DEBUG] Successfully made the connection with runner with port: 37584
+04-01-2023 08:02:10.651 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:02:10.695 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:02:10.695 [Gauge] [DEBUG] Run started
+04-01-2023 08:02:10.695 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:02:10.703 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34928
+04-01-2023 08:02:10.704 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34928
+04-01-2023 08:02:10.704 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:02:10.721 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:02:10.725 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:02:10.729 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:02:10.732 [python] [INFO] 성공
+04-01-2023 08:02:10.735 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:02:10.738 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:02:10.748 [python] [ERROR] panic: empty display string
+04-01-2023 08:02:10.749 [python] [ERROR] goroutine 1 [running]:
+04-01-2023 08:02:10.749 [python] [ERROR] main.main()
+04-01-2023 08:02:10.749 [python] [ERROR] 	/Users/runner/work/gauge_screenshot/gauge_screenshot/main.go:44 +0x205
+04-01-2023 08:02:10.749 [python] [WARNING] Screenshot file /root/test_lab/.gauge/screenshots/screenshot-31007379909811197093744328307698106405.png does not exists.
+04-01-2023 08:02:10.754 [Gauge] [ERROR] 
+Failed Step: ## 밑에 table 입력하여 테스트
+04-01-2023 08:02:10.754 [Gauge] [ERROR] Error Message: name 'name' is not defined
+04-01-2023 08:02:10.754 [Gauge] [ERROR] Specification: specs/test.spec:18
+04-01-2023 08:02:10.754 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/usr/local/lib/python3.5/dist-packages/nqplus/gocdlib/nq_python.py", line 43, in decorated
+    func(*args, **kwargs)
+  File "/root/test_lab/step_impl/parameter.py", line 23, in how
+    print(search_log[name])
+NameError: name 'name' is not defined
+04-01-2023 08:02:10.756 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:02:10.756 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:02:10.759 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:02:10.761 [python] [INFO] A, 100
+04-01-2023 08:02:10.764 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:02:10.764 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:02:10.766 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:02:10.767 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:02:10.769 [python] [INFO] A
+04-01-2023 08:02:10.769 [python] [INFO] 성공
+04-01-2023 08:02:10.772 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:02:10.772 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:02:10.774 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:02:10.777 [python] [INFO] B, 200
+04-01-2023 08:02:10.779 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:02:10.779 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:02:10.781 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:02:10.781 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:02:10.783 [python] [INFO] B
+04-01-2023 08:02:10.783 [python] [INFO] 성공
+04-01-2023 08:02:10.790 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:02:10.805 [html-report] [WARNING] Failed to read screenshot open /root/test_lab/.gauge/screenshots/screenshot-31007379909811197093744328307698106405.png: no such file or directory
+04-01-2023 08:02:10.805 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:02:10.805 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:02:10.805 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:02:10.807 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:02:11.046 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:02:11.047 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:02:11.348 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:02:11.410 [Gauge] [DEBUG] Runner with PID:1614 has exited
+04-01-2023 08:02:11.411 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 08:02:11.411 [Gauge] [INFO] Scenarios:	6 executed	5 passed	1 failed	0 skipped
+04-01-2023 08:02:11.411 [Gauge] [INFO] 
+Total time taken: 94ms
+04-01-2023 08:02:53.567 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:02:53.568 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:02:53.568 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:02:53.568 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:02:53.568 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:02:53.569 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:02:53.569 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:02:53.570 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:02:53.570 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:02:53.711 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:02:53.712 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:02:53.989 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:02:54.028 [python] [INFO] Python: 3.5.2
+04-01-2023 08:02:54.028 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:02:54.069 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:02:54.077 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:02:54.082 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45611
+04-01-2023 08:02:54.083 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45611
+04-01-2023 08:02:54.084 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:02:54.130 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:02:54.130 [Gauge] [DEBUG] Run started
+04-01-2023 08:02:54.130 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:02:54.139 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37550
+04-01-2023 08:02:54.139 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37550
+04-01-2023 08:02:54.140 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:02:54.152 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:02:54.155 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:02:54.158 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:02:54.161 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:02:54.164 [python] [INFO] 성공
+04-01-2023 08:02:54.167 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:02:54.169 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:02:54.172 [python] [INFO] F
+04-01-2023 08:02:54.176 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:02:54.176 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:02:54.179 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:02:54.182 [python] [INFO] A, 100
+04-01-2023 08:02:54.185 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:02:54.185 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:02:54.188 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:02:54.188 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:02:54.191 [python] [INFO] A
+04-01-2023 08:02:54.191 [python] [INFO] 성공
+04-01-2023 08:02:54.195 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:02:54.195 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:02:54.196 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:02:54.199 [python] [INFO] B, 200
+04-01-2023 08:02:54.201 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:02:54.201 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:02:54.203 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:02:54.203 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:02:54.205 [python] [INFO] B
+04-01-2023 08:02:54.205 [python] [INFO] 성공
+04-01-2023 08:02:54.212 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:02:54.228 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:02:54.228 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:02:54.228 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:02:54.229 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:02:54.833 [Gauge] [DEBUG] Runner with PID:2182 has exited
+04-01-2023 08:02:54.834 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 08:02:54.834 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+04-01-2023 08:02:54.834 [Gauge] [INFO] 
+Total time taken: 81ms
+04-01-2023 08:02:54.834 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 08:03:12.945 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:03:12.946 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:03:12.946 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:03:12.946 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:03:12.947 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:03:12.947 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:03:12.947 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:03:12.948 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:03:12.948 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:03:13.084 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:03:13.084 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:03:13.359 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:03:13.421 [python] [INFO] Python: 3.5.2
+04-01-2023 08:03:13.421 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:03:13.441 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:03:13.469 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:03:13.487 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 44398
+04-01-2023 08:03:13.488 [Gauge] [DEBUG] Successfully made the connection with runner with port: 44398
+04-01-2023 08:03:13.488 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:03:13.504 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:03:13.504 [Gauge] [DEBUG] Run started
+04-01-2023 08:03:13.505 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:03:13.513 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45003
+04-01-2023 08:03:13.514 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 45003
+04-01-2023 08:03:13.514 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:03:13.525 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:03:13.535 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:03:13.539 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:03:13.543 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:03:13.546 [python] [INFO] 성공
+04-01-2023 08:03:13.549 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:03:13.552 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:03:13.564 [python] [ERROR] panic: empty display string
+04-01-2023 08:03:13.564 [python] [ERROR] goroutine 1 [running]:
+04-01-2023 08:03:13.564 [python] [ERROR] main.main()
+04-01-2023 08:03:13.564 [python] [ERROR] 	/Users/runner/work/gauge_screenshot/gauge_screenshot/main.go:44 +0x205
+04-01-2023 08:03:13.565 [python] [WARNING] Screenshot file /root/test_lab/.gauge/screenshots/screenshot-80774180989909024281954722993581129765.png does not exists.
+04-01-2023 08:03:13.569 [Gauge] [ERROR] 
+Failed Step: ## 밑에 table 입력하여 테스트
+04-01-2023 08:03:13.570 [Gauge] [ERROR] Error Message: ('name', 'number')
+04-01-2023 08:03:13.570 [Gauge] [ERROR] Specification: specs/test.spec:18
+04-01-2023 08:03:13.570 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/usr/local/lib/python3.5/dist-packages/nqplus/gocdlib/nq_python.py", line 43, in decorated
+    func(*args, **kwargs)
+  File "/root/test_lab/step_impl/parameter.py", line 23, in how
+    print(search_log["name","number"])
+KeyError: ('name', 'number')
+04-01-2023 08:03:13.572 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:03:13.572 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:03:13.574 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:03:13.577 [python] [INFO] A, 100
+04-01-2023 08:03:13.580 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:03:13.580 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:03:13.582 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:03:13.582 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:03:13.584 [python] [INFO] A
+04-01-2023 08:03:13.584 [python] [INFO] 성공
+04-01-2023 08:03:13.587 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:03:13.587 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:03:13.589 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:03:13.591 [python] [INFO] B, 200
+04-01-2023 08:03:13.593 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:03:13.593 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:03:13.595 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:03:13.596 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:03:13.598 [python] [INFO] B
+04-01-2023 08:03:13.598 [python] [INFO] 성공
+04-01-2023 08:03:13.604 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:03:13.618 [html-report] [WARNING] Failed to read screenshot open /root/test_lab/.gauge/screenshots/screenshot-80774180989909024281954722993581129765.png: no such file or directory
+04-01-2023 08:03:13.618 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:03:13.618 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:03:13.618 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:03:13.620 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:03:14.223 [Gauge] [DEBUG] Runner with PID:2477 has exited
+04-01-2023 08:03:14.223 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 08:03:14.223 [Gauge] [INFO] Scenarios:	6 executed	5 passed	1 failed	0 skipped
+04-01-2023 08:03:14.223 [Gauge] [INFO] 
+Total time taken: 99ms
+04-01-2023 08:03:14.224 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 08:05:21.009 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:05:21.009 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:05:21.010 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:05:21.010 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:05:21.010 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:05:21.011 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:05:21.011 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:05:21.011 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:05:21.011 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:05:21.480 [python] [INFO] Python: 3.5.2
+04-01-2023 08:05:21.481 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:05:21.530 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:05:21.548 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36100
+04-01-2023 08:05:21.549 [Gauge] [DEBUG] Successfully made the connection with runner with port: 36100
+04-01-2023 08:05:21.549 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:05:21.564 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:05:21.564 [Gauge] [DEBUG] Run started
+04-01-2023 08:05:21.565 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:05:21.573 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37695
+04-01-2023 08:05:21.573 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37695
+04-01-2023 08:05:21.573 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:05:21.595 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:05:21.599 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:05:21.601 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:05:21.604 [python] [INFO] 성공
+04-01-2023 08:05:21.606 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:05:21.608 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:05:21.610 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:05:21.610 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:05:21.621 [python] [ERROR] panic: empty display string
+04-01-2023 08:05:21.621 [python] [ERROR] goroutine 1 [running]:
+04-01-2023 08:05:21.621 [python] [ERROR] main.main()
+04-01-2023 08:05:21.621 [python] [ERROR] 	/Users/runner/work/gauge_screenshot/gauge_screenshot/main.go:44 +0x205
+04-01-2023 08:05:21.622 [python] [WARNING] Screenshot file /root/test_lab/.gauge/screenshots/screenshot-182231204459181848838260275789012467749.png does not exists.
+04-01-2023 08:05:21.626 [Gauge] [ERROR] 
+Failed Step: ## 밑에 table 입력하여 테스트
+04-01-2023 08:05:21.626 [Gauge] [ERROR] Error Message: ('name', 'number')
+04-01-2023 08:05:21.626 [Gauge] [ERROR] Specification: specs/test.spec:18
+04-01-2023 08:05:21.626 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/usr/local/lib/python3.5/dist-packages/nqplus/gocdlib/nq_python.py", line 43, in decorated
+    func(*args, **kwargs)
+  File "/root/test_lab/step_impl/parameter.py", line 23, in how
+    print(search_log[("name","number")])
+KeyError: ('name', 'number')
+04-01-2023 08:05:21.627 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:05:21.628 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:05:21.630 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:05:21.633 [python] [INFO] A, 100
+04-01-2023 08:05:21.636 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:05:21.636 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:05:21.638 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:05:21.638 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:05:21.640 [python] [INFO] A
+04-01-2023 08:05:21.641 [python] [INFO] 성공
+04-01-2023 08:05:21.645 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:05:21.645 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:05:21.648 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:05:21.651 [python] [INFO] B, 200
+04-01-2023 08:05:21.655 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:05:21.655 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:05:21.657 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:05:21.657 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:05:21.660 [python] [INFO] B
+04-01-2023 08:05:21.660 [python] [INFO] 성공
+04-01-2023 08:05:21.667 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:05:21.682 [html-report] [WARNING] Failed to read screenshot open /root/test_lab/.gauge/screenshots/screenshot-182231204459181848838260275789012467749.png: no such file or directory
+04-01-2023 08:05:21.682 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:05:21.682 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:05:21.682 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:05:21.683 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:05:21.867 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:05:21.953 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:05:22.026 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:05:22.288 [Gauge] [DEBUG] Runner with PID:3862 has exited
+04-01-2023 08:05:22.288 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 08:05:22.288 [Gauge] [INFO] Scenarios:	6 executed	5 passed	1 failed	0 skipped
+04-01-2023 08:05:22.288 [Gauge] [INFO] 
+Total time taken: 101ms
+04-01-2023 08:05:22.288 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 08:06:52.017 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:06:52.018 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:06:52.018 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:06:52.018 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:06:52.018 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:06:52.019 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:06:52.019 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:06:52.019 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:06:52.019 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:06:52.511 [python] [INFO] Python: 3.5.2
+04-01-2023 08:06:52.511 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:06:52.565 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:06:52.572 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45442
+04-01-2023 08:06:52.573 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45442
+04-01-2023 08:06:52.573 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:06:52.602 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:06:52.603 [Gauge] [DEBUG] Run started
+04-01-2023 08:06:52.603 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:06:52.612 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 39986
+04-01-2023 08:06:52.612 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 39986
+04-01-2023 08:06:52.612 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:06:52.628 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:06:52.632 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:06:52.637 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:06:52.640 [python] [INFO] 성공
+04-01-2023 08:06:52.643 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:06:52.645 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:06:52.649 [python] [INFO] F
+04-01-2023 08:06:52.652 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:06:52.652 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:06:52.654 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:06:52.656 [python] [INFO] A, 100
+04-01-2023 08:06:52.659 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:06:52.659 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:06:52.661 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:06:52.661 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:06:52.663 [python] [INFO] A
+04-01-2023 08:06:52.663 [python] [INFO] 성공
+04-01-2023 08:06:52.666 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:06:52.666 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:06:52.669 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:06:52.671 [python] [INFO] B, 200
+04-01-2023 08:06:52.674 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:06:52.674 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:06:52.676 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:06:52.676 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:06:52.679 [python] [INFO] B
+04-01-2023 08:06:52.679 [python] [INFO] 성공
+04-01-2023 08:06:52.685 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:06:52.695 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:06:52.695 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:06:52.701 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:06:52.701 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:06:52.701 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:06:52.704 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:06:52.978 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:06:53.067 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:06:53.159 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:06:53.308 [Gauge] [DEBUG] Runner with PID:4927 has exited
+04-01-2023 08:06:53.309 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 08:06:53.309 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+04-01-2023 08:06:53.309 [Gauge] [INFO] 
+Total time taken: 82ms
+04-01-2023 08:06:53.309 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 08:07:05.482 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:07:05.483 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:07:05.483 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:07:05.484 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:07:05.484 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:07:05.484 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:07:05.484 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:07:05.485 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:07:05.485 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:07:05.873 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:07:05.874 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:07:05.950 [python] [INFO] Python: 3.5.2
+04-01-2023 08:07:05.950 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:07:05.999 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:07:06.006 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34951
+04-01-2023 08:07:06.006 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34951
+04-01-2023 08:07:06.006 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:07:06.046 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:07:06.046 [Gauge] [DEBUG] Run started
+04-01-2023 08:07:06.047 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:07:06.055 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 38701
+04-01-2023 08:07:06.057 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 38701
+04-01-2023 08:07:06.057 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:07:06.076 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:07:06.079 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:07:06.083 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:07:06.085 [python] [INFO] 성공
+04-01-2023 08:07:06.088 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:07:06.091 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:07:06.094 [python] [INFO] 600
+04-01-2023 08:07:06.097 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:07:06.097 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:07:06.100 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:07:06.102 [python] [INFO] A, 100
+04-01-2023 08:07:06.105 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:07:06.105 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:07:06.109 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:07:06.109 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:07:06.111 [python] [INFO] A
+04-01-2023 08:07:06.111 [python] [INFO] 성공
+04-01-2023 08:07:06.114 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:07:06.114 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:07:06.116 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:07:06.118 [python] [INFO] B, 200
+04-01-2023 08:07:06.120 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:07:06.120 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:07:06.122 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:07:06.122 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:07:06.125 [python] [INFO] B
+04-01-2023 08:07:06.125 [python] [INFO] 성공
+04-01-2023 08:07:06.130 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:07:06.144 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:07:06.144 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:07:06.144 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:07:06.146 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:07:06.200 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:07:06.323 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:07:06.412 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:07:06.750 [Gauge] [DEBUG] Runner with PID:5219 has exited
+04-01-2023 08:07:06.750 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 08:07:06.751 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+04-01-2023 08:07:06.751 [Gauge] [INFO] 
+Total time taken: 83ms
+04-01-2023 08:07:06.751 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 08:08:09.842 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:08:09.843 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:08:09.843 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:08:09.843 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:08:09.843 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:08:09.844 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:08:09.844 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:08:09.845 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:08:09.845 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:08:10.335 [python] [INFO] Python: 3.5.2
+04-01-2023 08:08:10.335 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:08:10.384 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:08:10.411 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36502
+04-01-2023 08:08:10.412 [Gauge] [DEBUG] Successfully made the connection with runner with port: 36502
+04-01-2023 08:08:10.412 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:08:10.430 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:08:10.431 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:08:10.431 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:08:10.432 [Gauge] [DEBUG] Run started
+04-01-2023 08:08:10.432 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:08:10.441 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46779
+04-01-2023 08:08:10.442 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 46779
+04-01-2023 08:08:10.443 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:08:10.463 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:08:10.466 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:08:10.470 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:08:10.473 [python] [INFO] 성공
+04-01-2023 08:08:10.475 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:08:10.478 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:08:10.488 [python] [ERROR] panic: empty display string
+04-01-2023 08:08:10.488 [python] [ERROR] goroutine 1 [running]:
+04-01-2023 08:08:10.488 [python] [ERROR] main.main()
+04-01-2023 08:08:10.489 [python] [ERROR] 	/Users/runner/work/gauge_screenshot/gauge_screenshot/main.go:44 +0x205
+04-01-2023 08:08:10.489 [python] [WARNING] Screenshot file /root/test_lab/.gauge/screenshots/screenshot-316023185309634049612158250457525977125.png does not exists.
+04-01-2023 08:08:10.494 [Gauge] [ERROR] 
+Failed Step: ## 밑에 table 입력하여 테스트
+04-01-2023 08:08:10.494 [Gauge] [ERROR] Error Message: 'dict' object has no attribute 'itmes'
+04-01-2023 08:08:10.494 [Gauge] [ERROR] Specification: specs/test.spec:18
+04-01-2023 08:08:10.494 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.5/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/usr/local/lib/python3.5/dist-packages/nqplus/gocdlib/nq_python.py", line 43, in decorated
+    func(*args, **kwargs)
+  File "/root/test_lab/step_impl/parameter.py", line 23, in how
+    print(search_log.itmes())
+AttributeError: 'dict' object has no attribute 'itmes'
+04-01-2023 08:08:10.496 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:08:10.496 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:08:10.499 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:08:10.501 [python] [INFO] A, 100
+04-01-2023 08:08:10.505 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:08:10.505 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:08:10.507 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:08:10.507 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:08:10.511 [python] [INFO] A
+04-01-2023 08:08:10.511 [python] [INFO] 성공
+04-01-2023 08:08:10.514 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:08:10.514 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:08:10.517 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:08:10.521 [python] [INFO] B, 200
+04-01-2023 08:08:10.524 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:08:10.525 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:08:10.527 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:08:10.528 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:08:10.531 [python] [INFO] B
+04-01-2023 08:08:10.531 [python] [INFO] 성공
+04-01-2023 08:08:10.541 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:08:10.556 [html-report] [WARNING] Failed to read screenshot open /root/test_lab/.gauge/screenshots/screenshot-316023185309634049612158250457525977125.png: no such file or directory
+04-01-2023 08:08:10.556 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:08:10.556 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:08:10.556 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:08:10.558 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:08:10.693 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:08:10.770 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:08:10.844 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:08:11.161 [Gauge] [DEBUG] Runner with PID:5955 has exited
+04-01-2023 08:08:11.161 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-01-2023 08:08:11.161 [Gauge] [INFO] Scenarios:	6 executed	5 passed	1 failed	0 skipped
+04-01-2023 08:08:11.161 [Gauge] [INFO] 
+Total time taken: 108ms
+04-01-2023 08:08:11.162 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-01-2023 08:09:38.234 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:09:38.234 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:09:38.235 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:09:38.235 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:09:38.235 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:09:38.235 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:09:38.236 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:09:38.236 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:09:38.236 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:09:38.736 [python] [INFO] Python: 3.5.2
+04-01-2023 08:09:38.736 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:09:38.790 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:09:38.809 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45175
+04-01-2023 08:09:38.810 [Gauge] [DEBUG] Successfully made the connection with runner with port: 45175
+04-01-2023 08:09:38.810 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:09:38.826 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:09:38.826 [Gauge] [DEBUG] Run started
+04-01-2023 08:09:38.827 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:09:38.835 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 44159
+04-01-2023 08:09:38.835 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 44159
+04-01-2023 08:09:38.835 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:09:38.852 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:09:38.857 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:09:38.862 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:09:38.865 [python] [INFO] 성공
+04-01-2023 08:09:38.870 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:09:38.873 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:09:38.877 [python] [INFO] dict_items([('name', 'F'), ('number', '600')])
+04-01-2023 08:09:38.881 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:09:38.881 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:09:38.885 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:09:38.888 [python] [INFO] A, 100
+04-01-2023 08:09:38.892 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:09:38.892 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:09:38.895 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:09:38.895 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:09:38.898 [python] [INFO] A
+04-01-2023 08:09:38.898 [python] [INFO] 성공
+04-01-2023 08:09:38.902 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:09:38.902 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:09:38.905 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:09:38.908 [python] [INFO] B, 200
+04-01-2023 08:09:38.911 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:09:38.911 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:09:38.913 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:09:38.913 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:09:38.916 [python] [INFO] B
+04-01-2023 08:09:38.916 [python] [INFO] 성공
+04-01-2023 08:09:38.924 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:09:38.939 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:09:38.939 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:09:38.940 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:09:38.941 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:09:39.125 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:09:39.126 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:09:39.398 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:09:39.476 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:09:39.543 [Gauge] [DEBUG] Runner with PID:6947 has exited
+04-01-2023 08:09:39.544 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 08:09:39.544 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+04-01-2023 08:09:39.544 [Gauge] [INFO] 
+Total time taken: 96ms
+04-01-2023 08:11:54.526 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+04-01-2023 08:11:54.526 [Gauge] [DEBUG] Plugin python is already installed.
+04-01-2023 08:11:54.527 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-01-2023 08:11:54.527 [Gauge] [DEBUG] Parsing started.
+04-01-2023 08:11:54.527 [Gauge] [DEBUG] Started concepts parsing.
+04-01-2023 08:11:54.527 [Gauge] [DEBUG] 1 concepts parsing completed.
+04-01-2023 08:11:54.527 [Gauge] [DEBUG] Started specifications parsing.
+04-01-2023 08:11:54.528 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-01-2023 08:11:54.528 [Gauge] [DEBUG] Parsing completed.
+04-01-2023 08:11:55.023 [python] [INFO] Python: 3.5.2
+04-01-2023 08:11:55.023 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+04-01-2023 08:11:55.078 [python] [DEBUG] Starting grpc server..
+04-01-2023 08:11:55.099 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43780
+04-01-2023 08:11:55.100 [Gauge] [DEBUG] Successfully made the connection with runner with port: 43780
+04-01-2023 08:11:55.100 [Gauge] [DEBUG] Validation started.
+04-01-2023 08:11:55.110 [Gauge] [DEBUG] Checking updates...
+04-01-2023 08:11:55.111 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:11:55.117 [Gauge] [DEBUG] Validation completed.
+04-01-2023 08:11:55.117 [Gauge] [DEBUG] Run started
+04-01-2023 08:11:55.117 [Gauge] [DEBUG] Starting Html Report plugin
+04-01-2023 08:11:55.126 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43335
+04-01-2023 08:11:55.127 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 43335
+04-01-2023 08:11:55.127 [Gauge] [DEBUG] Initialising suite data store.
+04-01-2023 08:11:55.146 [Gauge] [INFO] # Gauge 개인 테스트용
+04-01-2023 08:11:55.150 [Gauge] [INFO] ## 1. simple parameter 테스트
+04-01-2023 08:11:55.153 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+04-01-2023 08:11:55.155 [python] [INFO] 성공
+04-01-2023 08:11:55.158 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+04-01-2023 08:11:55.160 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+04-01-2023 08:11:55.162 [python] [INFO] dict_items([('name', 'F'), ('number', '600')])
+04-01-2023 08:11:55.162 [python] [INFO] F
+04-01-2023 08:11:55.162 [python] [INFO] 600
+04-01-2023 08:11:55.165 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:11:55.165 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:11:55.167 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+04-01-2023 08:11:55.169 [python] [INFO] A, 100
+04-01-2023 08:11:55.171 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+04-01-2023 08:11:55.172 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:11:55.174 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:11:55.174 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+04-01-2023 08:11:55.176 [python] [INFO] A
+04-01-2023 08:11:55.176 [python] [INFO] 성공
+04-01-2023 08:11:55.180 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:11:55.180 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+04-01-2023 08:11:55.183 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+04-01-2023 08:11:55.187 [python] [INFO] B, 200
+04-01-2023 08:11:55.190 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+04-01-2023 08:11:55.190 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+04-01-2023 08:11:55.194 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+04-01-2023 08:11:55.194 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+04-01-2023 08:11:55.197 [python] [INFO] B
+04-01-2023 08:11:55.197 [python] [INFO] 성공
+04-01-2023 08:11:55.205 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-01-2023 08:11:55.221 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+04-01-2023 08:11:55.221 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+04-01-2023 08:11:55.221 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-01-2023 08:11:55.223 [python] [DEBUG] KillProcessrequest received
+04-01-2023 08:11:55.380 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:11:55.459 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:11:55.536 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+04-01-2023 08:11:55.827 [Gauge] [DEBUG] Runner with PID:8441 has exited
+04-01-2023 08:11:55.827 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-01-2023 08:11:55.827 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+04-01-2023 08:11:55.827 [Gauge] [INFO] 
+Total time taken: 87ms
+04-01-2023 08:11:55.828 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+05-01-2023 00:08:53.971 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+05-01-2023 00:08:53.972 [Gauge] [DEBUG] Plugin python is already installed.
+05-01-2023 00:08:53.972 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-01-2023 00:08:53.972 [Gauge] [DEBUG] Parsing started.
+05-01-2023 00:08:53.972 [Gauge] [DEBUG] Started concepts parsing.
+05-01-2023 00:08:53.973 [Gauge] [DEBUG] 1 concepts parsing completed.
+05-01-2023 00:08:53.973 [Gauge] [DEBUG] Started specifications parsing.
+05-01-2023 00:08:53.974 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-01-2023 00:08:53.974 [Gauge] [DEBUG] Parsing completed.
+05-01-2023 00:08:54.444 [python] [INFO] Python: 3.5.2
+05-01-2023 00:08:54.444 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+05-01-2023 00:08:54.496 [python] [DEBUG] Starting grpc server..
+05-01-2023 00:08:54.516 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35342
+05-01-2023 00:08:54.517 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35342
+05-01-2023 00:08:54.517 [Gauge] [DEBUG] Validation started.
+05-01-2023 00:08:54.532 [Gauge] [DEBUG] Validation completed.
+05-01-2023 00:08:54.533 [Gauge] [DEBUG] Run started
+05-01-2023 00:08:54.533 [Gauge] [DEBUG] Starting Html Report plugin
+05-01-2023 00:08:54.541 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36423
+05-01-2023 00:08:54.541 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 36423
+05-01-2023 00:08:54.541 [Gauge] [DEBUG] Initialising suite data store.
+05-01-2023 00:08:54.559 [Gauge] [INFO] # Gauge 개인 테스트용
+05-01-2023 00:08:54.562 [Gauge] [INFO] ## 1. simple parameter 테스트
+05-01-2023 00:08:54.566 [Gauge] [DEBUG] * simple parameter 테스트 "성공"
+
+05-01-2023 00:08:54.569 [python] [INFO] 성공
+05-01-2023 00:08:54.572 [Gauge] [INFO] ## 4. dynamic parameter 테스트 - ## 밑에 table 입력
+05-01-2023 00:08:54.575 [Gauge] [DEBUG] * ## 밑에 table 입력하여 테스트 
+
+   |key   |value|
+   |------|-----|
+   |name  |F    |
+   |number|600  |
+05-01-2023 00:08:54.578 [python] [INFO] dict_items([('name', 'F'), ('number', '600')])
+05-01-2023 00:08:54.578 [python] [INFO] F
+05-01-2023 00:08:54.578 [python] [INFO] 600
+05-01-2023 00:08:54.581 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+05-01-2023 00:08:54.581 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+05-01-2023 00:08:54.583 [Gauge] [DEBUG] * dynamic parameter 테스트 "A"과 "100"
+
+05-01-2023 00:08:54.585 [python] [INFO] A, 100
+05-01-2023 00:08:54.587 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+05-01-2023 00:08:54.587 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+05-01-2023 00:08:54.589 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+05-01-2023 00:08:54.589 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+05-01-2023 00:08:54.592 [python] [INFO] A
+05-01-2023 00:08:54.592 [python] [INFO] 성공
+05-01-2023 00:08:54.594 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+05-01-2023 00:08:54.594 [Gauge] [INFO] ## 2. dynamic parameter 테스트
+05-01-2023 00:08:54.596 [Gauge] [DEBUG] * dynamic parameter 테스트 "B"과 "200"
+
+05-01-2023 00:08:54.598 [python] [INFO] B, 200
+05-01-2023 00:08:54.601 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+05-01-2023 00:08:54.601 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+05-01-2023 00:08:54.605 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+05-01-2023 00:08:54.605 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+05-01-2023 00:08:54.607 [python] [INFO] B
+05-01-2023 00:08:54.607 [python] [INFO] 성공
+05-01-2023 00:08:54.613 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-01-2023 00:08:54.628 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+05-01-2023 00:08:54.628 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+05-01-2023 00:08:54.628 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-01-2023 00:08:54.630 [python] [DEBUG] KillProcessrequest received
+05-01-2023 00:08:54.708 [Gauge] [DEBUG] Checking updates...
+05-01-2023 00:08:54.709 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+05-01-2023 00:08:54.978 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+05-01-2023 00:08:55.055 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+05-01-2023 00:08:55.129 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+05-01-2023 00:08:55.235 [Gauge] [DEBUG] Runner with PID:32459 has exited
+05-01-2023 00:08:55.235 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+05-01-2023 00:08:55.235 [Gauge] [INFO] Scenarios:	6 executed	6 passed	0 failed	0 skipped
+05-01-2023 00:08:55.235 [Gauge] [INFO] 
+Total time taken: 80ms
+05-01-2023 00:08:55.235 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+05-01-2023 00:10:25.623 [Gauge] [DEBUG] Created gauge_screenshots_dir at /root/test_lab/.gauge/screenshots
+05-01-2023 00:10:25.624 [Gauge] [DEBUG] Plugin python is already installed.
+05-01-2023 00:10:25.624 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-01-2023 00:10:25.624 [Gauge] [DEBUG] Parsing started.
+05-01-2023 00:10:25.625 [Gauge] [DEBUG] Started concepts parsing.
+05-01-2023 00:10:25.625 [Gauge] [DEBUG] 1 concepts parsing completed.
+05-01-2023 00:10:25.625 [Gauge] [DEBUG] Started specifications parsing.
+05-01-2023 00:10:25.626 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-01-2023 00:10:25.626 [Gauge] [DEBUG] Parsing completed.
+05-01-2023 00:10:26.122 [python] [INFO] Python: 3.5.2
+05-01-2023 00:10:26.122 [python] [DEBUG] Loading step implementations from /root/test_lab/step_impl dirs.
+05-01-2023 00:10:26.178 [python] [DEBUG] Starting grpc server..
+05-01-2023 00:10:26.199 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34994
+05-01-2023 00:10:26.200 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34994
+05-01-2023 00:10:26.200 [Gauge] [DEBUG] Validation started.
+05-01-2023 00:10:26.214 [Gauge] [DEBUG] Validation completed.
+05-01-2023 00:10:26.214 [Gauge] [DEBUG] Run started
+05-01-2023 00:10:26.214 [Gauge] [DEBUG] Starting Html Report plugin
+05-01-2023 00:10:26.222 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40922
+05-01-2023 00:10:26.223 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 40922
+05-01-2023 00:10:26.223 [Gauge] [DEBUG] Initialising suite data store.
+05-01-2023 00:10:26.238 [Gauge] [INFO] # Gauge 개인 테스트용
+05-01-2023 00:10:26.242 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |A   |100   |
+05-01-2023 00:10:26.242 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+05-01-2023 00:10:26.245 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+05-01-2023 00:10:26.245 [Gauge] [DEBUG] * 결과-concept 활용 "A"과 "성공"
+05-01-2023 00:10:26.248 [python] [INFO] A
+05-01-2023 00:10:26.248 [python] [INFO] 성공
+05-01-2023 00:10:26.251 [Gauge] [DEBUG] 
+   |name|number|
+   |----|------|
+   |B   |200   |
+05-01-2023 00:10:26.251 [Gauge] [INFO] ## 3. dynamic parameter 테스트 - concept 활용
+05-01-2023 00:10:26.253 [Gauge] [DEBUG] * concept 활용하여 테스트 <name>과 "성공"
+
+05-01-2023 00:10:26.253 [Gauge] [DEBUG] * 결과-concept 활용 "B"과 "성공"
+05-01-2023 00:10:26.256 [python] [INFO] B
+05-01-2023 00:10:26.256 [python] [INFO] 성공
+05-01-2023 00:10:26.262 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-01-2023 00:10:26.270 [html-report] [INFO] Successfully generated html-report to => /root/test_lab/reports/html-report/index.html
+05-01-2023 00:10:26.270 [html-report] [DEBUG] Done generating HTML report using theme from /root/.gauge/plugins/html-report/4.1.4/themes/default
+05-01-2023 00:10:26.270 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-01-2023 00:10:26.271 [python] [DEBUG] KillProcessrequest received
+05-01-2023 00:10:26.450 [Gauge] [DEBUG] Checking updates...
+05-01-2023 00:10:26.450 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+05-01-2023 00:10:26.728 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+05-01-2023 00:10:26.817 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot,xml-report&o=linux&a=amd64
+05-01-2023 00:10:26.875 [Gauge] [DEBUG] Runner with PID:1124 has exited
+05-01-2023 00:10:26.875 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+05-01-2023 00:10:26.875 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+05-01-2023 00:10:26.875 [Gauge] [INFO] 
+Total time taken: 47ms
