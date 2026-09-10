@@ -364,7 +364,7 @@ class Hub4comManager:
             "--use-driver=serial", f"--baud={baud}", "--data=8", "--parity=n", "--stop=1",
             "--ox=on", "--ix=on", "--octs=off", "--odsr=off",
             f"\\\\.\\{com}",
-            "--use-driver=tcp", f"*{tcp}", f"*{tcp}"
+            "--use-driver=tcp", f"*{tcp}"
         ]
         
         while self.running_flags.get(com, False):
